@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style> 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+  }
+
+  button{
+    background-color: #6f6f6f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    padding: 10px 20px;
+  }
+
+  button:hover{
+    background-color: #4f4f4f;
+    cursor: pointer;
+  }
+
+  h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  div{
+    border: red solid 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    animation: rgb 3s infinite linear;
+  }
+
+  @keyframes rgb {
+    0% {
+       border: red solid 2px;
+      }
+    50% {
+       border: green solid 2px;
+      }
+      100% {
+         border: blue solid 2px;
+      
+      }
+    
+  }
+</style>
+<body>
+  <header>
+ <h1>HAHAHA</h1>
+  </header>
+
+  <div class="borda">
+  <button onclick="clica()">Aperta aqui lek</button>
+  </div>
+
+  <script>
+    function clica(){
+      window.location.href = "https://youtu.be/j2eY2ZUoDCo?si=kfMEJsWhKkcOYH3j"
+    }
+  </script>
+
+
+</body>
+</html>
